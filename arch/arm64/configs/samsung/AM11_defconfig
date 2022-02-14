@@ -5142,6 +5142,12 @@ CONFIG_CRYPTO_HMAC=y
 CONFIG_CRYPTO_XCBC=y
 # CONFIG_CRYPTO_VMAC is not set
 
+# SEC DEFEX
+# CONFIG_SECURITY_DEFEX is not set
+# CONFIG_DEFEX_KERNEL_ONLY is not set
+# CONFIG_PROCA is not set
+# CONFIG_GAF is not set
+
 #
 # Digest
 #
