@@ -30,7 +30,7 @@ jobs:
     - name: Clone source
       run: |
           cd ~
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/${{ secrets.KERNEL_REPO }} -b ${Branch} kernel --depth=1
+          git clone https://github.com/samsung-sdm450/kernel_samsung_sdm450 --depth=1 kernel
       # Build!
     - name: Build!
       run: |
