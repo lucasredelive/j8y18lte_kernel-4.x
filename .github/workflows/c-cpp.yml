@@ -30,7 +30,7 @@ jobs:
     - name: Clone source
       run: |
           cd ~
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/${{ secrets.MIRROR_REPOSLUG }} -b ${Branch} kernel --depth=1
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/${{ secrets.KERNEL_REPO }} -b ${Branch} kernel --depth=1
       # Build!
     - name: Build!
       run: |
